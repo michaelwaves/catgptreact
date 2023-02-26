@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+    .text-container {
+        @apply w-1/2 h-24 bg-tertiary-dark rounded-xl  my-5 px-5;
+    }
+    .cat-container {
+        @apply w-1/2 h-96 bg-tertiary-light rounded-xl px-5;
+    }
+    .button {
+        @apply p-3 mb-5 w-1/4 mx-auto bg-primary rounded-3xl hover:rounded-xl  hover:bg-primary-light transition-all duration-100 ease-linear
+    }
+
+    .gradient{
+        @apply bg-gradient-to-r from-primary to-primary-light;
+    }
+
+    .input-box{
+        @apply w-64 h-12 text-center bg-tertiary-light rounded-xl mx-5 my-5 px-5;
+    }
+}
